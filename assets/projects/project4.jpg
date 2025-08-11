@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad4)" />
+  <rect x="50" y="50" width="700" height="500" fill="white" opacity="0.1" rx="20" />
+  
+  <!-- IoT Dashboard elements -->
+  <circle cx="200" cy="200" r="50" fill="white" opacity="0.3" />
+  <circle cx="400" cy="180" r="40" fill="white" opacity="0.3" />
+  <circle cx="600" cy="220" r="35" fill="white" opacity="0.3" />
+  
+  <!-- Connection lines -->
+  <line x1="250" y1="200" x2="360" y2="180" stroke="white" stroke-width="2" opacity="0.5" />
+  <line x1="440" y1="180" x2="565" y2="220" stroke="white" stroke-width="2" opacity="0.5" />
+  
+  <!-- Data panels -->
+  <rect x="100" y="320" width="150" height="100" fill="white" opacity="0.2" rx="10" />
+  <rect x="275" y="320" width="150" height="100" fill="white" opacity="0.2" rx="10" />
+  <rect x="450" y="320" width="150" height="100" fill="white" opacity="0.2" rx="10" />
+  
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" opacity="0.9">IoT Dashboard</text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.7">Real-time monitoring platform</text>
+</svg>

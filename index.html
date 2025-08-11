@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNext - Desarrollo de Software a Medida</title>
+    <meta name="description" content="CodeNext - Empresa líder en desarrollo de aplicaciones web y móviles con altos estándares de calidad y seguridad.">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <svg width="120" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" class="logo-img">
+                    <g transform="translate(15, 15)">
+                        <path d="M 5 25 L 20 10 L 25 15 L 15 25 L 25 35 L 20 40 L 5 25 Z" fill="#2E7EE8" stroke="#2E7EE8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+                        <path d="M 45 25 L 30 10 L 25 15 L 35 25 L 25 35 L 30 40 L 45 25 Z" fill="#2E7EE8" stroke="#2E7EE8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+                    </g>
+                    <text x="75" y="35" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#2E7EE8">Code</text>
+                    <text x="145" y="35" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#333333">Next</text>
+                </svg>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Inicio</a>
+                <a href="#services" class="nav-link">Servicios</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#about" class="nav-link">Nosotros</a>
+                <a href="#team" class="nav-link">Equipo</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Desarrollo de Software</span>
+                    <span class="title-line highlight">de Clase Mundial</span>
+                </h1>
+                <p class="hero-description">
+                    Creamos aplicaciones web y móviles con los más altos estándares de calidad y seguridad. 
+                    Soluciones empresariales innovadoras y a medida para impulsar tu negocio.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Ver Proyectos</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Contactar</span>
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">Clientes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-label">Años</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-preview">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="code-title">CodeNext.js</span>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line"><span class="code-keyword">const</span> <span class="code-variable">solution</span> = <span class="code-function">createApp</span>({</div>
+                        <div class="code-line">  <span class="code-property">quality</span>: <span class="code-string">'premium'</span>,</div>
+                        <div class="code-line">  <span class="code-property">security</span>: <span class="code-string">'enterprise'</span>,</div>
+                        <div class="code-line">  <span class="code-property">scalable</span>: <span class="code-boolean">true</span></div>
+                        <div class="code-line">});</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-description">
+                    Ofrecemos soluciones tecnológicas integrales con enfoque en calidad y seguridad
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="service-title">Aplicaciones Web</h3>
+                    <p class="service-description">
+                        Desarrollo de aplicaciones web modernas, escalables y responsivas utilizando las últimas tecnologías.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">React/Vue/Angular</span>
+                        <span class="feature">Node.js/.NET</span>
+                        <span class="feature">Cloud Ready</span>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Aplicaciones Móviles</h3>
+                    <p class="service-description">
+                        Apps nativas e híbridas para iOS y Android con interfaces intuitivas y rendimiento optimizado.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">React Native</span>
+                        <span class="feature">Flutter</span>
+                        <span class="feature">Nativo iOS/Android</span>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title">Seguridad Enterprise</h3>
+                    <p class="service-description">
+                        Implementación de protocolos de seguridad avanzados y auditorías para proteger tus datos.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">OAuth 2.0</span>
+                        <span class="feature">Encriptación</span>
+                        <span class="feature">Pentesting</span>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="service-title">Soluciones a Medida</h3>
+                    <p class="service-description">
+                        Desarrollo personalizado según las necesidades específicas de tu empresa y procesos de negocio.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">APIs Custom</span>
+                        <span class="feature">Integrations</span>
+                        <span class="feature">Arquitectura</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-description">
+                    Conoce algunos de nuestros trabajos más recientes y exitosos
+                </p>
+            </div>
+            <div class="projects-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carousel-track">
+                        <div class="project-slide active">
+                            <div class="project-image">
+                                <img src="assets/projects/project1.jpg" alt="Project Dealer">
+                                <div class="project-overlay">
+                                    <div class="project-info">
+                                        <h3>Project Dealer</h3>
+                                        <p>CRM de gestión comercial completo para optimizar procesos de ventas y Comisiones</p>
+                                        <div class="project-tech">
+                                            <span>Altos estándares de seguridad</span>
+                                            <span>Diseño intuitivo</span>
+                                            <span>Back Office Automatizado</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn next" id="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators" id="carousel-indicators">
+                    <button class="indicator active" data-slide="0"></button>
+                </div>
+            </div>
+            <div class="projects-footer">
+                <p class="projects-tech-note">
+                    Utilizamos las tecnologías más avanzadas y a la vanguardia para asegurar la calidad del sistema y sus datos
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title">Acerca de CodeNext</h2>
+                    <p class="about-description">
+                        Somos una empresa especializada en el desarrollo de software de alta calidad, 
+                        enfocada en brindar soluciones tecnológicas innovadoras que impulsen el crecimiento 
+                        de nuestros clientes.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Estándares de calidad enterprise</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Seguridad y compliance</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Metodologías ágiles</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Soporte Especializado</span>
+                        </div>
+                    </div>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <h4>Misión</h4>
+                            <p>Transformar ideas en soluciones tecnológicas que generen valor real para nuestros clientes.</p>
+                        </div>
+                        <div class="value-item">
+                            <h4>Visión</h4>
+                            <p>Ser la empresa líder en desarrollo de software personalizado en América Latina.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="team-grid">
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h4>Equipo Experto</h4>
+                            <p>Desarrolladores senior con 5+ años de experiencia</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>Innovación</h4>
+                            <p>Tecnologías de vanguardia y metodologías modernas</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>Compromiso</h4>
+                            <p>Dedicación total al éxito de cada proyecto</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4>Calidad</h4>
+                            <p>Procesos certificados y testing exhaustivo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Equipo</h2>
+                <p class="section-description">
+                    Conoce a los fundadores y visionarios detrás de CodeNext
+                </p>
+            </div>
+            <div class="founders-grid">
+                <div class="founder-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="founder-image">
+                        <img src="assets/team/eduardo-figueroa.jpeg" alt="Eduardo Figueroa">
+                        <div class="founder-overlay">
+                            <div class="founder-social">
+                                <a href="https://www.linkedin.com/in/eduardo-figueroa-3b09bb1ab/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Eduardo Figueroa</h3>
+                        <p class="founder-title">CEO y Fundador</p>
+                        <p class="founder-description">
+                            Experto en programación y desarrollo de software con visión en metodologías ágiles. 5 años de experiencia en área comercial, gestión de equipos y entrenamiento de fuerzas de ventas con enfoque en productividad.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="founder-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="founder-image">
+                        <img src="assets/team/manuel-molina.png" alt="Manuel Molina">
+                        <div class="founder-overlay">
+                            <div class="founder-social">
+                                <a href="https://www.linkedin.com/in/manuel-molina-villarroel-a4826028b/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Manuel Molina</h3>
+                        <p class="founder-title">CTO y Fundador</p>
+                        <p class="founder-description">
+                            Experto en programación y desarrollo de software con visión en metodologías ágiles. Especializado en arquitectura de software y soluciones escalables.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="founder-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="founder-image">
+                        <img src="assets/team/matias-orostica.jpg" alt="Matias Orostica">
+                        <div class="founder-overlay">
+                            <div class="founder-social">
+                                <a href="https://www.linkedin.com/in/matias-ignacio-orostica-oyarce-1a9940258/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Matias Orostica</h3>
+                        <p class="founder-title">COO y Fundador</p>
+                        <p class="founder-description">
+                            Experto en programación y desarrollo de software con visión en metodologías ágiles. Enfocado en la excelencia operativa y crecimiento sostenible.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="founder-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="founder-image">
+                        <img src="assets/team/andres-rojas.jpeg" alt="Andrés Rojas">
+                        <div class="founder-overlay">
+                            <div class="founder-social">
+                                <a href="https://www.linkedin.com/in/andres-rojas-maturana-5a9390293/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 class="founder-name">Andrés Rojas</h3>
+                        <p class="founder-title">CMO y Fundador</p>
+                        <p class="founder-description">
+                            Experto en programación y desarrollo de software con visión en metodologías ágiles. Especializado en estrategias de marketing digital.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¡Hablemos de tu Proyecto!</h2>
+                <p class="section-description">
+                    Estamos listos para ayudarte a materializar tus ideas
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>contacto@codenext.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Teléfono</h4>
+                            <p>+56952382322</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Ubicación</h4>
+                            <p>Ciudad de Viña del Mar</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Cuéntanos sobre tu proyecto" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Enviar Mensaje</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo-footer.svg" alt="CodeNext Logo">
+                        <span>CodeNext</span>
+                    </div>
+                    <p class="footer-description">
+                        Desarrollando el futuro con código de calidad y soluciones innovadoras.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#services">Desarrollo Web</a></li>
+                        <li><a href="#services">Apps Móviles</a></li>
+                        <li><a href="#services">Seguridad</a></li>
+                        <li><a href="#services">Consultoría</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#projects">Proyectos</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> contacto@codenext.com</p>
+                        <p><i class="fas fa-phone"></i> +569 52382322</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Ciudad de Viña del Mar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CodeNext. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg width="180" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60">
+  <!-- Logo symbol - Code brackets inspired by the original image -->
+  <g transform="translate(10, 10)">
+    <!-- Left bracket -->
+    <path d="M 3 20 L 15 8 L 19 12 L 11 20 L 19 28 L 15 32 L 3 20 Z" fill="#2E7EE8" stroke="#2E7EE8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Right bracket -->
+    <path d="M 37 20 L 25 8 L 21 12 L 29 20 L 21 28 L 25 32 L 37 20 Z" fill="#2E7EE8" stroke="#2E7EE8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text - CodeNext with proper styling -->
+  <text x="65" y="27" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" fill="#2E7EE8">Code</text>
+  <text x="120" y="27" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" fill="#333333">Next</text>
+</svg>

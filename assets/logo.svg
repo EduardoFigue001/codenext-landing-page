@@ -1,0 +1,20 @@
+<svg width="240" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E7EE8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90E2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo symbol - Code brackets inspired by CodeNext branding -->
+  <g transform="translate(15, 15)">
+    <!-- Left bracket -->
+    <path d="M 5 25 L 20 10 L 25 15 L 15 25 L 25 35 L 20 40 L 5 25 Z" fill="#2E7EE8" stroke="#2E7EE8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Right bracket -->
+    <path d="M 45 25 L 30 10 L 25 15 L 35 25 L 25 35 L 30 40 L 45 25 Z" fill="#2E7EE8" stroke="#2E7EE8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text - CodeNext with proper styling -->
+  <text x="75" y="35" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" fill="#2E7EE8">Code</text>
+  <text x="145" y="35" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="700" fill="#333333">Next</text>
+</svg>

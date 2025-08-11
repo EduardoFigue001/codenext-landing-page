@@ -1,0 +1,10 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Simplified logo icon for favicon -->
+  <rect width="32" height="32" fill="#2E7EE8" rx="6"/>
+  <g transform="translate(6, 6)">
+    <!-- Left bracket -->
+    <path d="M 1 10 L 7 4 L 9 6 L 5 10 L 9 14 L 7 16 L 1 10 Z" fill="white" stroke="white" stroke-width="1" stroke-linejoin="round"/>
+    <!-- Right bracket -->
+    <path d="M 19 10 L 13 4 L 11 6 L 15 10 L 11 14 L 13 16 L 19 10 Z" fill="white" stroke="white" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
